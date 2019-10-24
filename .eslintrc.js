@@ -15,15 +15,5 @@ module.exports = {
 		'react/jsx-max-props-per-line': 'off',
 		'react/jsx-tag-spacing': 'off',
 		'react/jsx-wrap-multilines': 'off'
-	},
-
-	root: true,
-	parserOptions: {
-		sourceType: 'module',
-		ecmaVersion: 6
-	},
-	rules: {
-		// windows linebreaks when not in production environment
-		'linebreak-style': [ 'error', process.env.NODE_ENV === 'prod' ? 'unix' : 'windows' ]
 	}
 };
