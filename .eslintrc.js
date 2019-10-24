@@ -15,5 +15,17 @@ module.exports = {
 		'react/jsx-max-props-per-line': 'off',
 		'react/jsx-tag-spacing': 'off',
 		'react/jsx-wrap-multilines': 'off'
+	},
+
+	extends: 'google',
+	quotes: [ 2, 'single' ],
+	globals: {
+		SwaggerEditor: false
+	},
+	env: {
+		browser: true
+	},
+	rules: {
+		'linebreak-style': 0
 	}
 };
