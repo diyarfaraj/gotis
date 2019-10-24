@@ -17,7 +17,13 @@ module.exports = {
 		'react/jsx-wrap-multilines': 'off'
 	},
 
+	root: true,
+	parserOptions: {
+		sourceType: 'module',
+		ecmaVersion: 6
+	},
 	rules: {
-		'linebreak-style': [ 'error', 'windows' ]
+		// windows linebreaks when not in production environment
+		'linebreak-style': [ 'error', process.env.NODE_ENV === 'prod' ? 'unix' : 'windows' ]
 	}
 };
