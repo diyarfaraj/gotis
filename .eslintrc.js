@@ -16,4 +16,5 @@ module.exports = {
     'react/jsx-tag-spacing': 'off',
     'react/jsx-wrap-multilines': 'off',
   },
+
 }
