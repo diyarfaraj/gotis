@@ -41,10 +41,7 @@ const MenuMobile = props => {
           </a>
         </li>
         <li className="socialIcon-li">
-          <a
-            target="_blank"
-            href="https://instagram.com/got.interactive.solutions?igshid=1b9dawo2m1fvn"
-          >
+          <a target="_blank" href="https://www.linkedin.com/company/29306329">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
