@@ -23,7 +23,7 @@ const Home = props => {
           <p>
             Vi designar och utvecklar den digitala delen av ditt företag,
             förbättrar kundupplevelsen där det spelar störst roll.
-            <Link to="/tjanster"> Läs mer</Link>
+            <Link to="/tjanster">Läs mer</Link>
           </p>
         </div>
       </div>
