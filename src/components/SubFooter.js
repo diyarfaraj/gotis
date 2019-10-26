@@ -1,5 +1,11 @@
-import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
+import React from "react";
+import { graphql, StaticQuery } from "gatsby";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 
 const SubFooter = props => (
   <div className="sub-footer-strip">
@@ -9,20 +15,42 @@ const SubFooter = props => (
           <div className="sub-footer">
             <ul>
               <li>
-                <strong>Phone: </strong>
+                <strong>Telefon: </strong>
                 {props.data.site.siteMetadata.contact.phone}
               </li>
               <li>
-                <strong>Email: </strong>
-{' '}
-                <a href={`mailto:${props.data.site.siteMetadata.contact.email}`}>
+                <strong>Mejl: </strong>{" "}
+                <a
+                  href={`mailto:${props.data.site.siteMetadata.contact.email}`}
+                >
                   {props.data.site.siteMetadata.contact.email}
                 </a>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="https://www.zerostatic.io">www.zerostatic.io</a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/GOTIS-Gothenburg-Interactive-Solutions-101507494607775/"
+                >
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://instagram.com/got.interactive.solutions?igshid=1b9dawo2m1fvn"
+                >
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://instagram.com/got.interactive.solutions?igshid=1b9dawo2m1fvn"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
               </li>
             </ul>
           </div>

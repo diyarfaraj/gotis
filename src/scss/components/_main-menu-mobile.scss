@@ -121,7 +121,7 @@ $button-width: 35px;
         }
 
         &:after {
-          content: '';
+          content: "";
           position: absolute;
           bottom: 0;
           left: 50%;
@@ -133,6 +133,13 @@ $button-width: 35px;
         }
       }
     }
+  }
+}
+
+.socialIcons {
+  display: flex;
+  .socialIcon-li {
+    margin-right: 10px;
   }
 }
 
