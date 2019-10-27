@@ -27,7 +27,7 @@ const SubFooter = props => (
                 </a>
               </li>
             </ul>
-            <ul>
+            <ul className="subFooter-social">
               <li>
                 <a
                   target="_blank"

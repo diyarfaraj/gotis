@@ -42,4 +42,14 @@
       }
     }
   }
+
+  @include media-breakpoint-up(sm) {
+  }
+}
+.subFooter-social {
+  display: flex;
+
+  li {
+    margin-right: 8px;
+  }
 }
