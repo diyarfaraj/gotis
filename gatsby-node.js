@@ -60,7 +60,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
       ).then(result => {
         result.data.services.edges.forEach(({ node }) => {
-          const component = path.resolve("src/templates/service.js");
+          const component = path.resolve("src/templates/tjanster.js");
           createPage({
             path: node.frontmatter.path,
             component,
