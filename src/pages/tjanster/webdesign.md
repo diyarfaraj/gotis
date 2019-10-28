@@ -1,17 +1,19 @@
 ---
-<<<<<<< HEAD
-path: "/tjanster/mergers"
-=======
-path: "/services/mergers"
->>>>>>> f4692a50bfa2986a2ea066b2b17e9d4158ef1b17
-title: "Mergers"
-date: 2018-11-28T15:15:34+10:00
-image: "/services/default.png"
+<<<<<<< HEAD:src/pages/tjanster/accounting.md
+path: "/tjanster/accounting"
+title: "Accounting"
+date: 2018-11-18T12:33:46+10:00
+image: "services/noun_591323.png"
 featured: true
-draft: false
+=======
+path: "/services/webdesign"
+title: "Webdesign"
+date: 2018-11-18T12:33:46+10:00
+image: "services/noun_591323.png"
+>>>>>>> f4692a50bfa2986a2ea066b2b17e9d4158ef1b17:src/pages/tjanster/webdesign.md
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
+Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
 de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
 
