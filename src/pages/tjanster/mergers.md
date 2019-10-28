@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 path: "/tjanster/mergers"
-=======
-path: "/services/mergers"
->>>>>>> f4692a50bfa2986a2ea066b2b17e9d4158ef1b17
 title: "Mergers"
 date: 2018-11-28T15:15:34+10:00
 image: "/services/default.png"

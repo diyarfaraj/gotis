@@ -1,16 +1,9 @@
 ---
-<<<<<<< HEAD:src/pages/tjanster/accounting.md
-path: "/tjanster/accounting"
-title: "Accounting"
-date: 2018-11-18T12:33:46+10:00
-image: "services/noun_591323.png"
-featured: true
-=======
-path: "/services/webdesign"
+path: "/tjanster/webdesign"
 title: "Webdesign"
 date: 2018-11-18T12:33:46+10:00
 image: "services/noun_591323.png"
->>>>>>> f4692a50bfa2986a2ea066b2b17e9d4158ef1b17:src/pages/tjanster/webdesign.md
+featured: true
 ---
 
 Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
