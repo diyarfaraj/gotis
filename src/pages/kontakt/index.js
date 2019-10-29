@@ -1,27 +1,32 @@
-import React from "react";
-import SEO from "../../components/SEO";
-import Layout from "../../layouts/index";
-import Call from "../../components/Call";
+import React from 'react';
+import SEO from '../../components/SEO';
+import Layout from '../../layouts/index';
+import Call from '../../components/Call';
 
-const Contact = props => (
-  <Layout bodyClass="page-contact">
-    <SEO title="Kontakt" />
-    <div className="intro intro-small">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <h1>Kontakt</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="container">
-      <div className="row">
-        <div className="col-12">
-          <Call button={false} />
-        </div>
+const Contact = (props) => (
+	<Layout bodyClass="page-contact">
+		<SEO title="Kontakt" />
+		<div className="intro intro-small">
+			<div className="container">
+				<div className="row">
+					<div className="col-12">
+						<h1>Kontakta oss</h1>
+						<p>
+							Det finns många skäl att kontakta oss, men du kan alltid kontakta oss för din nästa
+							webbdesign, underhåll, supporttjänster, allt utvecklingsarbete, feedback eller helt enkelt
+							säga Hej!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div className="container">
+			<div className="row">
+				<div className="col-12">
+					<Call button={false} />
+				</div>
 
-        {/* <div className="col-8">
+				{/* <div className="col-8">
 					<h4 className="mt-4">Business Hours</h4>
 					<table className="table table-sm opening-hours-table">
 						<tbody>
@@ -70,9 +75,9 @@ const Contact = props => (
 						</tbody>
 					</table>
 				</div> */}
-      </div>
-    </div>
-  </Layout>
+			</div>
+		</div>
+	</Layout>
 );
 
 export default Contact;

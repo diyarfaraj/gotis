@@ -12,10 +12,10 @@ const Team = (props) => {
 				<div className="container">
 					<div className="row">
 						<div className="col-12">
-							<h1>Meet The Team</h1>
+							<h1>En kreativ webbyrå</h1>
 							<p>
-								Our team of qualified accountants and financial consultants can help your business at
-								any stage of it’s growth.
+								Vi är Gothenburg Interactive Solutions, GOTIS. Vi är specialiserade på design och
+								utveckling för webb och mobil.
 							</p>
 						</div>
 					</div>
