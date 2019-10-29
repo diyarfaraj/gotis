@@ -1,53 +1,15 @@
 ---
 path: "/tjanster/webdesign"
-title: "Webbdesign"
+title: "Webbdesign / UX"
 date: 2018-11-18T12:33:46+10:00
 image: "services/noun_591323.png"
 featured: true
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Kundbeteende kan verka som ett mysterium ibland, men vi kan hjälpa dig att förstå hur dina kunder tänker, vilket leder till bättre implementering och bättre leverans. Arbetet med design och UX handlar om att göra vardagen enklare och roligare för människor. Genom att utveckla tjänster och produkter som användarna älskar och pratar om, ökar också nyttan för företaget.
 
-## Ne verba patulosque numen vix libet
+## För att hemsidor är för människor, inte för robotar
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+När du bygger en hemsida uifrån dina kunders användarupplevelse kan du tillåta idéer misslyckas i små steg, tidigt, vilket leder till stora framgångar på lång sikt.
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
-
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
-
-## Postquam tamen
-
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
-
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
-
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+Tidigt i ett projekt genomför vi preliminära undersökningar i form av intervjuer och andra typer av analyser för att lära oss hur man bäst tjänar användare. När vi går igenom resten av design- och byggfasen testar vi våra idéer på flera planer för att förbättra design och koncept. Vi använder oss av olika interaktiva metoder, bland annat genom klickbara prototyper, feedback och testning för att ytterligare förbättra helheten. Vi tror att det alltid finns utrymme att förbättra, förenkla och göra upplevelser bättre.
