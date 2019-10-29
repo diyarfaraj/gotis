@@ -6,6 +6,7 @@ import Layout from '../layouts/index';
 const Service = ({ data }) => {
 	const { title } = data.markdownRemark.frontmatter;
 	const { html } = data.markdownRemark;
+
 	return (
 		<Layout bodyClass="page-service">
 			<SEO title={title} />
