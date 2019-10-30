@@ -51,7 +51,9 @@ const Team = (props) => {
 												</a>
 											</li>
 											<li>
-												<a href={edge.node.frontmatter.email}>{edge.node.frontmatter.email}</a>
+												<a href={`mailto:${edge.node.frontmatter.email}`}>
+													{edge.node.frontmatter.email}
+												</a>
 											</li>
 										</ul>
 									</div>
