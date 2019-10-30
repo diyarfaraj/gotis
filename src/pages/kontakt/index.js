@@ -13,8 +13,8 @@ const Contact = (props) => (
 						<h1>Kontakta oss</h1>
 						<p>
 							Det finns många skäl att kontakta oss, men du kan alltid kontakta oss för din nästa
-							webbdesign, underhåll, supporttjänster, allt utvecklingsarbete, feedback eller helt enkelt
-							säga Hej!
+							webbdesign, underhåll, supporttjänster, utvecklingsarbete, feedback eller helt enkelt säga
+							Hej!
 						</p>
 					</div>
 				</div>
