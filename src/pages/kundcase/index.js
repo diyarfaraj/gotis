@@ -28,7 +28,9 @@ const Testimonials = (props) => {
 									<p className="testimonials-name">{edge.node.frontmatter.name}</p>
 									<p className="testimonials-jobtitle">{edge.node.frontmatter.jobtitle}</p>
 									<p className="testimonials-url">
-										<a href={edge.node.frontmatter.businessurl}>Nya hemsidan</a>
+										<a target="_blank" href={edge.node.frontmatter.businessurl}>
+											Nya hemsidan
+										</a>
 									</p>
 								</div>
 								<div
