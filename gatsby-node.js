@@ -8,7 +8,7 @@ exports.createPages = ({ graphql, actions }) => {
 			graphql(
 				`
           query {
-            services: allMarkdownRemark(
+            tjanster: allMarkdownRemark(
               filter: { fileAbsolutePath: { regex: "/tjanster/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
@@ -56,11 +56,21 @@ exports.createPages = ({ graphql, actions }) => {
                 }
               }
             }
+
+            blogg: allContentfulBlogPost {
+              edges {
+                node {
+                  slug
+                }
+              }
+            }
           }
+
+          
         `
 			).then((result) => {
-				result.data.services.edges.forEach(({ node }) => {
-					const component = path.resolve('src/templates/tjanster.js');
+				result.data.tjanster.edges.forEach(({ node }) => {
+					const component = path.resolve('./src/templates/tjanster.js');
 					createPage({
 						path: node.frontmatter.path,
 						component,
@@ -70,7 +80,7 @@ exports.createPages = ({ graphql, actions }) => {
 					});
 				});
 				result.data.team.edges.forEach(({ node }) => {
-					const component = path.resolve('src/templates/team.js');
+					const component = path.resolve('./src/templates/team.js');
 					createPage({
 						path: node.frontmatter.path,
 						component,
@@ -80,12 +90,24 @@ exports.createPages = ({ graphql, actions }) => {
 					});
 				});
 				result.data.testimonials.edges.forEach(({ node }) => {
-					const component = path.resolve('src/templates/testimonial.js');
+					const component = path.resolve('./src/templates/testimonial.js');
 					createPage({
 						path: node.frontmatter.path,
 						component,
 						context: {
 							id: node.id
+						}
+					});
+				});
+
+				result.data.blogg.edges.forEach((edge) => {
+					const blogTemplate = path.resolve('./src/templates/blogg.js');
+
+					createPage({
+						component: blogTemplate,
+						path: `/blogg/${edge.node.slug}`,
+						context: {
+							slug: edge.node.slug
 						}
 					});
 				});
