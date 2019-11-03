@@ -43,6 +43,14 @@ const Home = props => {
                 <h2 className="feature-title">{edge.node.title}</h2>
                 <div className="feature-content">{edge.node.description}</div>
               </div>
+
+              <script
+                type="text/javascript"
+                id="hs-script-loader"
+                async
+                defer
+                src="//js.hs-scripts.com/6661655.js"
+              ></script>
             </div>
           ))}
         </div>
