@@ -11,15 +11,15 @@ module.exports = {
 		menuLinks: [
 			{
 				name: 'Tjänster',
-				link: '/tjanster'
+				link: '/services'
 			},
 			{
 				name: 'Blogg',
-				link: '/blogg'
+				link: '/blog'
 			},
 			{
 				name: 'Om Oss',
-				link: '/om'
+				link: '/about'
 			},
 			{
 				name: 'Kundcase',
@@ -27,7 +27,7 @@ module.exports = {
 			},
 			{
 				name: 'Kontakt',
-				link: '/kontakt'
+				link: '/contact'
 			}
 		]
 	},

@@ -9,7 +9,7 @@ exports.createPages = ({ graphql, actions }) => {
 				`
           query {
             tjanster: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/tjanster/" } }
+              filter: { fileAbsolutePath: { regex: "/services/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               edges {
@@ -25,7 +25,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
             team: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/om/" } }
+              filter: { fileAbsolutePath: { regex: "/about/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               edges {
@@ -70,7 +70,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
 			).then((result) => {
 				result.data.tjanster.edges.forEach(({ node }) => {
-					const component = path.resolve('./src/templates/tjanster.js');
+					const component = path.resolve('./src/templates/services.js');
 					createPage({
 						path: node.frontmatter.path,
 						component,
@@ -80,7 +80,7 @@ exports.createPages = ({ graphql, actions }) => {
 					});
 				});
 				result.data.team.edges.forEach(({ node }) => {
-					const component = path.resolve('./src/templates/team.js');
+					const component = path.resolve('./src/templates/about.js');
 					createPage({
 						path: node.frontmatter.path,
 						component,
@@ -101,7 +101,7 @@ exports.createPages = ({ graphql, actions }) => {
 				});
 
 				result.data.blogg.edges.forEach((edge) => {
-					const blogTemplate = path.resolve('./src/templates/blogg.js');
+					const blogTemplate = path.resolve('./src/templates/blog.js');
 
 					createPage({
 						component: blogTemplate,
