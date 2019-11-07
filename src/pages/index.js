@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Call from '../components/Call';
 
+
 const Home = (props) => {
 	const markdown = props.data.allMarkdownRemark.edges;
 	const json = props.data.allFeaturesJson.edges;
@@ -47,6 +48,58 @@ const Home = (props) => {
 					))}
 				</div>
 			</div>
+
+const Home = props => {
+  const markdown = props.data.allMarkdownRemark.edges;
+  const json = props.data.allFeaturesJson.edges;
+  return (
+    <Layout bodyClass="page-home">
+      <SEO title="Hem" />
+      <Helmet>
+        <meta
+          name="description"
+          content="Gothenburg Interactive Solutions. GOTIS. Webbbyrå i Borås, Göteborg, Stockholm och Malmö. Vi jpbbar med hemsidor, e-handel och e-handelslösningar"
+        />
+      </Helmet>
+      <div className="intro pb-4">
+        <div className="container">
+          <h1>I hjärtat av ditt nystartade företag</h1>
+          <p>
+            Vi designar och utvecklar den digitala delen av ditt företag,
+            förbättrar kundupplevelsen där det spelar störst roll.
+            <Link to="/tjanster"> Läs mer</Link>
+          </p>
+        </div>
+      </div>
+      <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
+        <div className="row justify-content-center">
+          <div className="col-12">
+            <h2 className="title-3 text-dark mb-4">Våra tjänster</h2>
+          </div>
+          {json.map(edge => (
+            <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
+              <div className="feature">
+                {edge.node.image && (
+                  <div className="feature-image">
+                    <img src={withPrefix(edge.node.image)} />
+                  </div>
+                )}
+                <h2 className="feature-title">{edge.node.title}</h2>
+                <div className="feature-content">{edge.node.description}</div>
+              </div>
+
+              <script
+                type="text/javascript"
+                id="hs-script-loader"
+                async
+                defer
+                src="//js.hs-scripts.com/6661655.js"
+              ></script>
+            </div>
+          ))}
+        </div>
+      </div>
+
 
 			{/* <div className="container pt-2">
         <Call button />
