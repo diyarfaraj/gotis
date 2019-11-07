@@ -1,6 +1,50 @@
 const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
+
+	siteMetadata: {
+		title: 'GOT Interactive Solutions',
+		description: 'GOT Interactive Solutions',
+		contact: {
+			phone: '+46 707 26 70 88',
+			email: 'contact@gotis.se'
+		},
+		menuLinks: [
+			{
+				name: 'Tjänster',
+				link: '/services'
+			},
+			{
+				name: 'Blogg',
+				link: '/blog'
+			},
+			{
+				name: 'Om Oss',
+				link: '/about'
+			},
+			{
+				name: 'Kundcase',
+				link: '/kundcase'
+			},
+			{
+				name: 'Kontakt',
+				link: '/contact'
+			}
+		]
+	},
+	plugins: [
+		'gatsby-plugin-sass',
+		'gatsby-transformer-json',
+		'gatsby-transformer-remark',
+		'gatsby-plugin-react-helmet',
+		{
+			resolve: 'gatsby-source-contentful',
+			options: {
+				spaceId: 'grzmi6mb32j1',
+				accessToken: 'npP8Mz2LrEu5Rk0DuERwo0ElllPVuOla1VLsiClZOuU'
+			}
+		},
+
   siteMetadata: {
     title: "GOT Interactive Solutions",
     description: "GOT Interactive Solutions",
@@ -36,6 +80,7 @@ module.exports = {
     "gatsby-transformer-json",
     "gatsby-transformer-remark",
     "gatsby-plugin-react-helmet",
+
 
     {
       resolve: "gatsby-plugin-hubspot",
